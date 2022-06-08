@@ -341,14 +341,49 @@ hr.style-one {
 
 @media screen and (max-width:640px){
   .left-nav nav ul li{
-    display: block;
-    width: 60%;
-    margin: 0 10px auto;
+    margin: auto auto auto auto !important;
+  }
+  body{
+    margin: auto auto auto auto !important;
   }
   .image{
-    float: none;
+    margin: auto auto auto auto !important;
+    right: 20px !important;
+    z-index: -1;
   }
   .text{
-    text-align: center;
+    z-index: 0; 
+    margin: auto auto auto auto !important;
+  }
+  .sign{
+    font-size: 22px !important;
+    top: 2%;
+  }
+
+
+  .left-right-section {
+    display: flex;
+    margin-bottom: auto !important;
+  }
+  
+  .left-right-section .text {
+    width: auto !important;
+    color: #1e3932;
+    padding: 50%  !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f8f6;
+  }
+  
+  .left-right-section .image {
+    width: auto !important;
+    display: flex;
+  }
+  
+  .left-right-section .image img {
+    width: auto !important;
+    height: auto !important;
   }
 }
