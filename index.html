@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <link src="img/icon.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="starbucks frontend clone "/>
+        <title>coffee</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <audio id="music" src="music/YumeNoKissaten-mitsukiyo.mp3" autoplay:1 controls loop:1></audio>
+        <script>
+            var vid = document.getElementById("music");
+            vid.volume = 0.09;
+        </script>
+
+        <header class="headerr">
+            <div class="header-container">
+                <div class="left-nav" >
+                    <div class="logo">
+                        <img src="img/icon.jpg" >
+                    </div>
+                    <nav >
+                        <ul>
+                            <li><a href="#one">香/酸/甘/苦/醇</a></li>
+                            <li><a href="#two">咖啡豆的種類和特性</a></li>
+                            <li><a href="#three">烘焙對咖啡風味的影響</a></li>
+                            <li><a href="#four">咖啡的酸味</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <h1>    
+            <div class="sign" >
+                <span class="fast-flicker" >Alvin</span>の<span class="flicker">喫</span>茶店
+            </div>
+        </h1>
+
+        <main>
+            <div class="main-container">
+                <section class="announcements">
+                    <img src="img/coffeee.jpg">
+                </section>
+                <section class="rewards left-right-section" id="promo1-text">
+                    <div class="text" id="promo1">
+                        <h1 id="one">香/酸/甘/苦/醇</h1>
+                        <p>要了解咖啡，就得先知道一些咖啡用語</p>
+                        <table>
+                            <colgroup span="2" style="background-color: rgba(253, 111, 22, 0.662);"></colgroup>
+                            <tr>
+                                <th>咖啡用語</th>
+                                <th>特性</th>
+                            </tr>
+                            <tr>
+                                <td>醇度(Body)</td>
+                                <td>醇度應是指咖啡在口中濃稠黏滑的觸感，可以用豐厚來形容質感濃稠的咖啡，質感單薄的咖啡喝起來就像是一般的飲料汽水一樣。醇度的感受可分為清淡如水般的淡薄，中度如全脂鮮奶的口感以及深度如糖漿般的超高濃脂狀。</td>
+                            </tr>
+                            <tr>
+                                <td>酸度(Acidity)</td>
+                                <td>一種分佈在舌頭後側的味覺，與令人分泌唾液的檸檬酸味不太相同，這種酸度是形容一種乾淨、明亮的感受，而且酸的香味會帶給酸味更豐富的內涵。通常產自高海拔高密度之Arabica種咖啡豆會有這種酸的特性，而低海拔之Robusta咖啡豆則沒有此種特性。</td>
+                            </tr>
+                            <tr>
+                                <td>苦味(Bitter)</td>
+                                <td>
+                                    這是深焙豆的特徵，和酸味一樣，不一定會令人感到不愉悅。一般說來酸味較強的咖啡，苦味會較弱，通常會形成苦味的原因有下列五種：
+                                    品種：通常Robusta比Arabica苦味強。
+                                    產區：通常產自印尼蘇門答臘、爪哇的咖啡停比其它產區的咖啡苦味強。
+                                    烘焙度：深烘焙比淺烘焙的咖啡豆苦，原因為焦糖化及碳化的程度較重。
+                                    咖啡因：Robusta比Arabica苦，Robusta比Arabica多出二倍的咖啡因，因此Robusta比Arabica苦。
+                                    萃取時間：萃取時間愈長，苦味愈明顯。
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>甘度(Sweet)</td>
+                                <td>形容咖啡入口之後回甘轉甜的完美感受，令人聯想到糖漿，這種回味無窮的的美味口感也正是優質咖啡才能散發出來的風味。新鮮是造成回甘最主要的因素，香氣從喉頭湧上一股酥麻的感覺持續約二三分鐘，這種令人陶醉的餘味會一直讓你念念不忘。在烘焙與沖泡過程中，如果處理過度會很容易喪失這種咖啡的甘甜味。</td>
+                            </tr>
+                            <tr>
+                                <td>香氣(Aroma)</td>
+                                <td>香味是咖啡品質的重要指標，產地的氣候、處理過程及烘焙技術，都是會左右咖啡豆香味的重要條件，香氣是指沖煮完成的咖啡所發出的味道，用來形容咖啡氣味包括有焦糖味、可可味、水果味、花香味、濃郁、香辛味等。一般來說，香氣的消失正意味著品質變差。</td>
+                            </tr>
+                        </table>
+
+                        <p>其他常用的咖啡詞彙還有平順(smooth)、乾淨(clean)、深度(depth)、平衡(balance)、風味(flavor)、豐富(richness)、複雜度(complexity)等，有些可以望文生義，一看就明瞭，因此不再多做贅述。</p>
+                    </div>
+                    <div class="image" id="promo1-img">
+                        <img src="img/img01.jpg">
+                    </div>
+                </section>
+
+                <section class="rewards left-right-section">
+                    <div class="text">
+                        <h1 id="two">咖啡豆的種類和特性</h1>
+                        <p style="color:rgb(95, 51, 24);">咖啡的特有香味令人難以抗拒，獨特的風味更是人人喜愛，下表簡列了一些具代表性的咖啡豆，讓您可以快速的了解每一豆種的特性與風味。</p>
+                        <table>
+                            <colgroup span="7" style="background-color: rgb(95, 51, 24);"></colgroup>
+                            <tr style=" color: white;">
+                                <th>咖啡豆</th>
+                                <th>香</th>
+                                <th>酸</th>
+                                <th>甘</th>
+                                <th>苦</th>
+                                <th>醇</th>
+                                <th>說明</th>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>巴西</td>
+                                <td>★★★★</td>
+                                <td>★★★</td>
+                                <td>★★</td>
+                                <td>★★</td>
+                                <td>★★</td>
+                                <td style="font-size:5px ;">巴西是世界第一的咖啡生產國，咖啡豆的顆粒飽滿，香味與豆性溫和，酸苦口感適中，具有平順口感，是中性咖啡的代表，個別品嚐或與其他咖啡豆做混合搭配均為極佳選擇。</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>哥倫比亞</td>
+                                <td>★★★★★</td>
+                                <td>★★★</td>
+                                <td>★★★</td>
+                                <td>★★★</td>
+                                <td>★★★★</td>
+                                <td style="font-size:5px ;">哥倫比亞產區的咖啡中以Supremo最具代表性，咖啡嚐起來軟滑香醇，均衡度佳，散發甜香，酸中帶甘，苦味適中，屬中度咖啡，是用來調配綜合咖啡的上品</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>瓜地馬拉 安堤瓜</td>
+                                <td>★★★★★</td>
+                                <td>★★★★</td>
+                                <td>★★</td>
+                                <td>★★</td>
+                                <td>★★★★</td>
+                                <td style="font-size:5px ;">在瓜地馬拉中央高地區生長著一些口味獨特的咖啡，其酸度較強，濃度中等，口感豐富，帶有淡淡可可及炭燒風味，安堤瓜被認為是瓜地馬拉品質最好的咖啡</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>夏威夷 可娜</td>
+                                <td>★★★★★</td>
+                                <td>★★★</td>
+                                <td>★★★</td>
+                                <td>★★</td>
+                                <td>★★★★</td>
+                                <td style="font-size:5px ;">	
+                                    屬於夏威夷西部火山所栽種的咖啡，也是美國唯一生產的咖啡品種，與藍山齊名堪稱為咖啡之后，口感較強，帶著強酸，並且混著奇妙的葡萄酒香與堅果芳香。</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>曼特寧</td>
+                                <td>★★★</td>
+                                <td>★</td>
+                                <td>★★★★</td>
+                                <td>★★★★★</td>
+                                <td>★★★★★</td>
+                                <td style="font-size:5px ;">生於印尼，產自蘇門達臘的大顆粒品種曼特寧為其中的代表，個性狂野，風味香濃苦，不帶酸味，醇香順口，是喜愛濃烈口感者的最愛。</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>克里曼佳羅</td>
+                                <td>★★★</td>
+                                <td>★★</td>
+                                <td>★★★</td>
+                                <td>★★</td>
+                                <td>★★★★</td>
+                                <td style="font-size:5px ;">具有豐富的油脂，濃郁甘甜，帶有植物的清香味。酸度較低，口感均勻，香味濃郁。咖啡應有的各種特性 - 酸甘香苦醇四味一香包含其中。</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>肯亞 AA</td>
+                                <td>★★★★★</td>
+                                <td>★★★</td>
+                                <td>★★★</td>
+                                <td>★★★★★</td>
+                                <td>★★★★</td>
+                                <td style="font-size:5px ;">19世紀由衣索比亞引入，是非洲高地栽培的代表性咖啡。咖啡豆肉質圓厚，具有微酸濃稠的香氣與水果芳香，味濃質佳，是品味單品之首選。</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>哈拉摩卡</td>
+                                <td>★★★★</td>
+                                <td>★★★★</td>
+                                <td>★★★★</td>
+                                <td>★★</td>
+                                <td>★★★★★</td>
+                                <td style="font-size:5px ;">摩卡豆種中的上上之選。甘性極佳。散發特殊的巧克力，水果與酒香，風味絕佳，建議在飲用時可搭配巧克力一同品嚐，感受咖啡與巧克力混合出來的新味覺感受。</td>
+                            </tr>
+                            <tr  style=" color: white;">
+                                <td>耶加雪夫</td>
+                                <td>★★★★</td>
+                                <td>★★★★</td>
+                                <td>★★★★</td>
+                                <td>★★★</td>
+                                <td>★★★★</td>
+                                <td style="font-size:5px ;">摩卡改良種，具有清新的花果香，濃郁的口感融合了咖啡果酸味及微微煙草味，多重豐富的口感別具特色。</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="image">
+                        <img src="img/img02.jpg" >
+                    </div>
+
+                </section>
+                <section class="chill left-right-section">
+                    <div class="image">
+                        <img src="img/img03.jpg" >
+                    </div>
+                    <div class="text" id="poster1">
+                        <h1 id="three">烘焙對咖啡風味的影響</h2>
+                            <section>
+                            <div class="flavor">
+                                <h3 style ="color: black; font-size:20px ;">烘焙出濃郁迷人的香氣~</h3>
+                                <div class="contents">
+                                    咖啡生豆所含的七、八百種芬香成份必須要靠專業烘焙來喚醒，少了這道烘焙的程序，咖啡只不過是一些不太舒服的日曬味或水洗味，更不用說要拿來當成飲用品了。生豆經過五至七分鐘強力的加熱之後，會引起劇烈的化學變化，進而散發特殊的濃香，這種複雜的化學反應就連最精密的實驗室也無法模擬，不過，大概可歸納為幾個要項。
+                                    首先，生豆經過攝氏二百度以上烘焙，水分開始蒸發，體積膨脹百分之六十，重量則減輕約百分之二十左右，要視烘焙程度而定，烘焙愈深，重量損失愈多。另一個重要現象是排氣，生豆在烘焙過程中會釋放出二氧化碳coffeebyroast，咖啡豆在烘焙過後還會繼續進行排氣。排放二氧化碳有助於咖啡豆的保鮮，因為在排氣的過程當中，氧分子不易入侵，也就是影響咖啡新鮮度的氧化作用無法進行，不過在烘焙過後排氣現象會逐漸減緩，氧分子很容易會附著在咖啡豆的表面，咖啡很快就會走味，這就是為何咖啡豆開封之後最好儘量喝完的重要原因。
+                                <div>
+                            </div>
+                            </section>
+
+                            <section>
+                                <div class="flavor">
+                                    <h3 style ="color: black; font-size:20px ;">咖啡烘焙的秘訣~</h3>
+                                    <div class="contents">
+                                        咖啡豆的化學反應在烘焙時可藉著聲音、顏色及味道來判斷反應進行的程度。咖啡豆顏色會隨著持續加溫，由灰綠色轉成金黃色進而淺褐色、微量出油的赤褐色、接著是大量出油呈現油滋滋的黑褐色，如果再繼續烘下去，咖啡豆表面的油脂會變乾，呈現出黑色，並冒出大量的煙，夾雜著焦味，這是接近燃點的警訊，咖啡豆由淺轉深，是因為焦糖化和酸性物質起變化所致。
+                                        聽聲音也是判斷烘焙度的依據。如果烘焙機的溫度夠熱，咖啡豆在烘焙過程會發出兩次爆裂聲響，以曼特寧和安堤瓜等耐高溫的生豆為例，七分鐘左右會發出第一爆，聲音低沈稀落，這表示熱解作用已經啟動了，也就是澱粉開始轉化成焦糖的開始，水分也隨著二氧化碳噴出豆表，發出低沈的爆裂聲，兩分鐘歸於平靜，十二分左右又發出第二爆，這個第二爆就代表咖啡豆已經差不多烘好了，接著咖啡豆從烘焙機中移出至冷卻盤，頓時香氣瀰漫!
+                                        另外，巴西和爪哇等較不耐高溫的豆種，第一爆和第二爆來得較早，火候控制要格外留意。
+                                    <div>
+                                </div>
+                            </section>
+
+                            <section>
+                                <div class="flavor">
+                                    <h3 style ="color: black; font-size:20px ;">數據化~</h3>
+                                    <div class="contents">
+                                        了解咖啡豆烘焙時會出現的特性之後，再來談談各種烘焙度的界定及口味問題。長久以來慣以Cinnamon(最淺焙)、City(淺焙)、Fully City(深焙)及Dark roast(重深焙，包括義式和法式) 來界定烘焙程度，近年來，美國精品咖啡協會大力鼓吹以焦糖化數值(Agtron number)來判定烘焙度，也就是以紅內線來測定咖啡豆的焦糖化程度。數值愈高表示焦糖化愈低，也就是烘焙程度愈淺，數值愈低表示焦糖化愈深，亦即烘焙程度愈深，有了數據就可以更精準的了解咖啡豆的烘焙程度，不致出現各地區有不同的烘焙度標準。
+                                        咖啡風味也會隨著烘焙度不同而改變，一般而言酸味和烘焙程度呈反比，如果是偏好果酸味的朋友，不妨選購烘焙度較淺的咖啡，如果您喜歡濃郁帶一點甘香的口感，可選擇重烘焙豆，另外，咖啡因含量也和烘焙度呈反比，也就是說淺焙咖啡所含的咖啡因含量會比較高，因為咖啡因會在烘焙過程中被破壞。而果香味也會隨著烘焙度加深而遞減，不過，淺焙咖啡比較不容易展現醇酒的發酵香味、刺激味和回甘的口感。但是，如果重度烘焙技術不好的話，很可能會烘出又焦又苦的咖啡。
+                                    <div>
+                                </div>
+                            </section>
+                        
+                            <section>
+                                <div class="flavor">
+                                    <h3 style ="color: black; font-size:20px ;">其他影響咖啡烘焙的因素~</h3>
+                                    <div class="contents">
+                                        咖啡生豆的硬度、含水量及生豆的年份都會影響烘焙，因此，烘焙師在烘焙時都會因為這影響因子去做咖啡烘焙處理的調整。一般而言，越新的豆子含水量會越高，在烘焙時脫水部份應酌予增加時間。而年份較多的生豆則水份及酸度均較低，脫水的時間應較短，且在同樣烘焙條件下，其酸性會較新豆來得弱且柔和些。
+                                    </div>
+                                </div>
+                            </section>
+                          
+                    </div>
+                </section>
+
+                <section class="chill left-right-section">
+                    <div class="image">
+                        <img src="img/img04.jpg" >
+                    </div>
+                    <div class="text">
+                        <h1 id="four">咖啡的酸味</h1>
+                        <section>
+                            <div class="Sour ">
+                                <h3 style ="color: black; font-size:25px ;">令人餘悅的酸咖啡~</h3>
+                                <div class="Sourc">
+                                    一般人誤以為咖啡不新鮮就會有酸味，其實咖啡本身就是酸性飲料，咖啡酸不酸，取決growthon於豆子的品種及烘焙度，烘焙時間愈長，焦糖化程度愈高，酸性物質被破壞愈多，就愈不容易有酸味，烘焙時間愈短，焦糖化程度愈低，咖啡豆中還保留有有機酸，因此很容易產生酸味。另外，泡咖啡的溫度也有影響，溫度較低的水會比較高水溫更容易泡出酸的咖啡，怕酸的人最好趁熱喝完咖啡，避免攪拌次數過多或保溫太久，否則咖啡的酸味會隨著溫度降低而出現。咖啡酸不酸並不是評斷品質好壞或新鮮與否的標準，這全是口味上主觀的喜好問題。怕酸就選購深焙豆或亞洲豆，喜會嚐酸就喝淺焙豆或非洲豆，完全取決於個人喜好。
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="Sour ">
+                                <h3 style ="color: black; font-size:25px ;">烘焙度與酸味的關係~</h3>
+                                <div class="Sourc">
+                                    咖啡的酸性強弱跟咖啡品種、烘焙度深淺有很大的關係，而咖啡會帶有酸性則是因為咖啡豆在生長與處理的過程中，充分吸收果肉的果酸。以品種而言，優質的阿拉比卡種咖啡豆較具酸性，因此藍山、肯亞、瓜地馬拉、摩卡、哥斯大黎加等咖啡多少都帶有果酸性。栽種容易價格較便宜的羅布斯塔種咖啡豆則幾乎不具酸性。
+                                    雖然很多人都喝不慣酸溜溜的咖啡，但許多老饕級的咖啡品味家卻喜歡淺焙咖啡活潑、明朗、富味覺變化的多種層次感。他們不喜愛單調又缺乏果酸味的深焙咖啡。其實，優質的淺焙咖啡會呈現一種活潑酸味，剛入口時會感受到果酸刺激，不過，沒一會兒酸味就消失了，轉化成辛香味，或檸檬、柑橘般的清香味，最後呈現如可可般的甜香。
+                                    烘焙度較淺的咖啡，酸鹼值在4.5~4.7之間，中深焙的Full City咖啡酸鹼值在5~5.5左右，深度烘焙(Dark Roast)的PH值會在5.5以上。以常人的味蕾而言，飲料的酸鹼值如果超出5.5以上，就很難察覺它的酸味，因此重深焙豆比較不易喝出酸味。
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="Sour ">
+                                <h3 style ="color: black; font-size:25px ;">淺焙深焙各具特色~</h3>
+                                <div class="Sourc">
+                                    烘焙度的深淺也同樣左右著咖啡的『苦』與『酸』，烘焙越深酸性就越低，苦味也因此premiumcoffee隨之上升，只不過隨著烘焙的加深，咖啡豆原本的特性也會因碳化加重而逐漸降低，因此只要依照自己喜愛的口感，您就能選擇最佳的烘焙平衡點。
+                                    喜歡酸溜溜且富味覺變化的咖啡，不妨選購淺焙的非洲豆和中美洲豆，例如肯亞、衣索匹亞、葉門摩卡、瓜地馬拉、哥斯大黎加等，都是很好的酸豆。偏好濃香、甘甜咖啡的人，可以挑選亞洲深焙豆，比方說曼特寧、爪哇和巴西，都是不錯的選擇。
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <hr class="style-one" />
+        <footer>
+            <div class="footer-below">
+
+                <div class="final">
+                    <p>© 2022 4b0g0022 許育文 Alvin. All rights reserved.</p>
+                </div>
+                
+            </div>
+        </footer>
+        <p id="pagetop"><a href="#">TOP<i style="font-size:24px" class="fa">&#xf0f4;</i></a> </p>
+        <!-- <i class="fa fa-coffee"></i> -->
+    </body>
+</html>
